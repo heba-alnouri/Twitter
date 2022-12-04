@@ -1,0 +1,13 @@
+{
+  "tweetValidation": {
+    "notEmpty": {
+      "tweetId": "Tweet id must not be empty.",
+      "tweetContent": "Tweet content must not be empty.",
+      "author": "Tweet author is missing."
+    },
+    "length": {
+      "tweetContent": "Tweet content must not exceed 128 letters."
+    },
+    "tweetId": "Tweet ID is incorrect."
+  }
+}

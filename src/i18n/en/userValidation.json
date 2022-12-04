@@ -1,0 +1,22 @@
+{
+  "userValidation": {
+    "notEmpty": {
+      "userID": "User Id must not Empty",
+      "firstName": "First Name Must be Provided",
+      "lastName": "Last Name Must be Provided",
+      "email": "Email Must be Provided",
+      "password": "Password Must be Provided",
+      "phoneNumber": "Phone Number Must be Provided If WhatsApp Was Chosen As Contact Preference"
+    },
+    "length": {
+      "firstName": "First Name Length Must be Between 3, 30 characters",
+      "lastName": "Last Name Length Must be Between 3, 30 characters",
+      "email": "Email Length Must be more than 8 characters",
+      "password": "Your Password is too Weak, it should be more than 8 letters."
+    },
+    "userId": "User ID is incorrect.",
+    "email": "You Must Use a Valid Email",
+    "emailExist": "Email Already Exists",
+    "emailDontExist": "Email doesn't Exists"
+  }
+}
